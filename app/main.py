@@ -11,9 +11,9 @@ def format_linter_report(linter_report: dict) -> list:
         if "errors" in linter_report:
             return linter_report["errors"]
         flattened = []
-        for v in linter_report.values():
-            if isinstance(v, list):
-                flattened.extend(v)
+        for value in linter_report.values():
+            if isinstance(value, list):
+                flattened.extend(value)
         if flattened:
             return flattened
     # fallback: coerce iterable to list
