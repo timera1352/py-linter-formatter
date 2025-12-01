@@ -1,8 +1,10 @@
 def f(error: dict) -> dict:
-    return f(error=error)
+    return error
+
 
 def fo(errors: list) -> dict:
-    return fo(errors = errors)
+    return {"errors": errors}
+
 
 def forma(linter_report: dict) -> list:
-    return forma(linter_report = linter_report)
+    return list(linter_report)
