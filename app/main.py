@@ -1,8 +1,8 @@
-def format_linter_error(error: dict) -> dict:
-    return(format_linter_error(error=error))
+def f(error: dict) -> dict:
+    return f(error=error)
 
-def format_single_linter_file(file_path: str, errors: list) -> dict:
-    return(format_single_linter_file(file_path="./source_code_2.py", errors=errors))
+def fo(errors: list) -> dict:
+    return fo(errors = errors)
 
-def format_linter_report(linter_report: dict) -> list:
-    return(format_linter_report(linter_report=linter_report))
+def forma(linter_report: dict) -> list:
+    return forma(linter_report = linter_report)
